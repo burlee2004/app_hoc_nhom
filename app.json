@@ -1,0 +1,38 @@
+  {
+    "expo": {
+      "sdkVersion": "55.0.0",
+      "entryPoint": "./App.js",
+      "name": "Học nhóm",
+      "slug": "App_Hoc_Nhom",
+      "version": "1.0.0",
+      "orientation": "portrait",
+      "icon": "./assets/images/logo_Main.png",
+      "scheme": "myapp",
+      "userInterfaceStyle": "automatic",
+      "newArchEnabled": true,
+      "splash": {
+        "image": "./assets/images/logo_Main.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#00868B"
+      },
+      "ios": {
+        "supportsTablet": true
+      },
+      "android": {
+        "adaptiveIcon": {
+          "foregroundImage": "./assets/images/adaptive-icon.png",
+          "backgroundColor": "#ffffff"
+        },
+        "package": "com.tienzed2003.App_Hoc_Nhom"
+      },
+      "web": {
+        "bundler": "metro",
+        "output": "static",
+        "favicon": "./assets/images/favicon.png"
+      },
+      "plugins": ["expo-router"],
+      "experiments": {
+        "typedRoutes": true
+      }
+    }
+  }
